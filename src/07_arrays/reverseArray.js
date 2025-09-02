@@ -6,7 +6,10 @@
  * @returns {Array}
  */
 function reverseArray(arr) {
-    // Your code here
+    const newArr = arr.slice();
+    return newArr.reverse()
 }
+
+reverseArray([1,2,3])
 
 module.exports = reverseArray;

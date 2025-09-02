@@ -6,8 +6,9 @@
  * @param {*} obj2 
  */
 function compareObjects(obj1, obj2) {
-    // Your code here
+    return JSON.stringify(obj1) == JSON.stringify(obj2)
 }
+
   
 module.exports = compareObjects;
   

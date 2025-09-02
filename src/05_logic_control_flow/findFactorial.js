@@ -7,7 +7,13 @@
 // The factorial of 3 is 3 * 2 * 1 = 6.
 // Recommended: use a while of for loop to solve the problem
 function findFactorial(n) {
-    // Your code here
+    let result=1;
+    let i=1;
+    while(i<=n){
+        result = result * i
+        i++
+    }
+    return result
 }
 
 module.exports = findFactorial;

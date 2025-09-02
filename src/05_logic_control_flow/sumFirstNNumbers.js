@@ -8,7 +8,11 @@
  * If n is negative, your function should return 0.
  **/
 function sumFirstNNumbers(n) {
-    // Your code here
+    let result=0;
+    for(let i=0;i<=n;i++){
+        result= result + i
+    }
+    return result
 }
 
 
